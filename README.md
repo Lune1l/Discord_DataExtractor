@@ -17,4 +17,4 @@ Discord DataExtractor is a set of scripts that allows you to dig into your Disco
 
 ## Licence
 This repository is under creative commons licence ![Licence](https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png)
-<br>That said unauthorized use of the scripts may result in criminal prosecution.
+<br>Obvisouly nauthorized use of the scripts may result in criminal prosecution.
