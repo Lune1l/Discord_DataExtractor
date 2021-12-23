@@ -2,22 +2,37 @@ import os
 import csv
 import re
 import requests
-from glob import glob
 
 #Welcome on Discord data package extractor.
-#--- Proudly made by Lune1l ---")
-#/!\ BEFORE STARTING CHANGE THE PATH TO YOUR DATAPACKAGE AND TO THE DESTINATION FOLDER /!\
-PATH_FOR_IMAGE_EXTRACTION = "PATH TO THE DEDICATED FOLDER"
-PATH = "PATH TO YOUR DISCORD DATA PACKAGE"
-# DO NOT MODIFY ANY OTHER PARAMETER IN THE CODE
-#----------
-
+#--- Proudly made by Ech0 ---")
 print("----------------------------------------------")
 print("Welcome to Discord DATAPACKAGE Extractor V1.0")
+print("----------------------------------------------")
+PATH_FOR_IMAGE_EXTRACTION = input("Please enter the path for the image extraction (PLEASE BE CAREFULL where you download the files): ")
+PATH = input("Please enter the path to your data package: ")
+# DO NOT MODIFY ANY PARAMETER IN THE CODE
+if (PATH_FOR_IMAGE_EXTRACTION[len(PATH_FOR_IMAGE_EXTRACTION)-1] != "/"):
+    PATH_FOR_IMAGE_EXTRACTION = PATH_FOR_IMAGE_EXTRACTION + "/"
+    print("Path for extraction ok. (Added / at the end of the path)")
+else :
+    print("Path for extraction ok.")
+if (PATH[len(PATH)-1] != "/"):
+    PATH = PATH + "/"
+    print("Path to data package ok. (Added / at the end of the path)")
+#----------
 print("----------------------------------------------")
 print("Here is the path for the package : "+PATH)
 print("Here is the path to the destination folder : "+PATH_FOR_IMAGE_EXTRACTION)
 print("----------------------------------------------")
+before_start_breaker = 0
+while (before_start_breaker == 0):
+    before_start = input("Extraction and download of all images is going to begin. Continue ? y / n :")
+    if (before_start == "n"):
+        print("Interrupted. Bye.")
+        exit()
+    if (before_start == "y"):
+        before_start_breaker = 1
+        print("Processing. . .")
 #-- 1 -- EXTRACTING INTERESTING ELEMENTS FROM THE DATAPACKAGE
 all_img_link = [] #All the links and other similar expression
 final_links = [] #Will be used to store the images link list
