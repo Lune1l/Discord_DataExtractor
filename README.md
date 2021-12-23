@@ -7,9 +7,9 @@ Discord DataExtractor is a set of scripts that allows you to dig into your Disco
 * **🥞 Pancakes_Talks** -- (SOON) This script will allows you to search specific words, message in your datapackage.
 
 ## How to use the scripts ?
-  * **Coffee_Gallery.py** : Open the .py file and edit :<br>
-  ````PATH_FOR_IMAGE_EXTRACTION```` (Path to the folder where images are going to be extracted) and ````PATH```` (The path do your D.P)<br>
+  * **Coffee_Gallery.py** : Execute the .py file and follow the instructions :<br>
   ⚠️ CAUTION : The script may extract more than 200 images, please store them into a dedicated folder to avoid issues.
+  * **Pancakes_Talks.py** : Execute the .py file and follow the instructions.<br>
   
 ## Contribution
 <br>Please open all pull request against the 'main' branch.
@@ -17,4 +17,4 @@ Discord DataExtractor is a set of scripts that allows you to dig into your Disco
 
 ## Licence
 This repository is under creative commons licence ![Licence](https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png)
-<br>Obvisouly nauthorized use of the scripts may result in criminal prosecution.
+<br>Obvisouly unauthorized use of the scripts may result in criminal prosecution.
