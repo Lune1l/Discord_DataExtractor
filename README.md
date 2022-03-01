@@ -9,7 +9,6 @@ Discord DataExtractor is a set of scripts that allows you to dig into your Disco
 ## How to use the scripts ?
   * **Coffee_Gallery.py** : Execute the .py file and follow the instructions :<br>
   ⚠️ CAUTION : The script may extract more than 200 images, please store them into a dedicated folder to avoid issues.
-  * **Pancakes_Talks.py** : Execute the .py file and follow the instructions.<br>
   
 ## Contribution
 <br>Please open all pull request against the 'main' branch.
