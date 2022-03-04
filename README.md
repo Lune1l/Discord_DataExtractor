@@ -4,7 +4,6 @@ Discord DataExtractor is a set of scripts that allows you to dig into your Disco
 
 ## Repository guide
 * **☕ Coffee_Gallery.py** -- This script will dig into all subfolder of your D.P and download any images you sent and which are hosted on Discord CDN.
-* **🥞 Pancakes_Talks** -- (SOON) This script will allows you to search specific words, message in your datapackage.
 
 ## How to use the scripts ?
   * **Coffee_Gallery.py** : Execute the .py file and follow the instructions :<br>
