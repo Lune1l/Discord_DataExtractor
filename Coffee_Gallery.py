@@ -1,7 +1,7 @@
 import os
 import csv
 import re
-import glob
+from glob import glob
 import requests
 
 #Welcome on Discord data package extractor.
